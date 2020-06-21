@@ -1,0 +1,88 @@
+/*formulário do aluno */
+form {
+    text-align: center;
+    
+    margin: 100px auto;
+  
+    
+}
+
+form fieldset{
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 100px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ border: none;
+  
+  width: 80%;
+}
+
+/* Título do formulário  do aluno*/
+form h1{
+    margin-bottom: 30px;
+    margin-left: 65px;
+   
+}
+/*elemento que envolve os labels e os inputs*/
+form .campos{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     margin: 20px 0;
+    
+     
+ } 
+
+
+ /*label geral*/
+ form label{
+     font-size: 22px;
+     margin-right: 0;
+     width: 200px;
+    
+ }
+
+ /*input geral */
+ form input{
+    padding-left: 30px;
+    font-size: 16px;
+    width: 250px;
+}
+ 
+ /* label específico do campo sexo do aluno*/
+ form label#sexo{
+     width: 80px;
+     margin-left: 230px;
+    
+ }
+
+ /* campo especifico do  input tipo radio*/
+form input[type=radio]{
+    width: 120px;
+    padding-left: 10px;
+    
+    
+}
+/* propriedades comuns  ao label e ao input do formulário*/
+ form  label, form input {
+    height: 24px;
+    
+    
+ }
+
+/* campo de seleção do curso do aluno*/
+ form select {
+    height: 24px;
+    width: 280px;
+    padding-left: 30px;
+    font-size: 16px;
+ }
+
+ 
+
+ 
+
+ 
+
+ 

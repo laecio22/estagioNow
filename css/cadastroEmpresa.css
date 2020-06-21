@@ -1,0 +1,65 @@
+/* Formulário da Empresa*/
+form {
+    text-align: center;
+    
+    margin: 100px auto;
+  
+    
+}
+
+form fieldset{
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 100px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ border: none;
+  
+  width: 80%;
+}
+
+/*Titulo do Formulário da Empresa*/
+form h1{
+    margin-bottom: 30px;
+    margin-left: 110px;
+   
+}
+
+/*elemento que envolve os inputs e os labels*/
+form .campos{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     margin: 20px 0;
+    
+     
+ } 
+/*label geral*/
+ form label{
+     font-size: 22px;
+     margin-right: 0;
+     width: 200px;
+    
+ }
+ /*input geral*/
+ form input{
+    padding-left: 30px;
+    font-size: 16px;
+    width: 250px;
+}
+
+/* propriedades comuns  ao label e ao input do formulário*/
+ form  label, form input {
+    height: 24px;
+    
+    
+ }
+
+ 
+ 
+
+ 
+
+ 
+
+ 
